@@ -15,6 +15,7 @@ Production:
   - encriptionSecret
 
 Staging:
+
   - url - "http://npc-api-staging.tq1.taqtile.io"
   - appKey
     - Extra - "95a7274b1519985c8cf2b4bfd7921d46fb6f7fcb"
