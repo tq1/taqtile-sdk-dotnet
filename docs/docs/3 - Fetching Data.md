@@ -17,3 +17,13 @@ Example:
 ```csharp
 var responseScreenTags = client.FetchScreenTags();
 ```
+
+##Fetch Device Info URL
+
+If you want to access the file with the reports of custom data for all users, you should call the fetch device info request.
+
+Example:
+
+```
+var responseCustom = client.FetchDeviceInfoUrl();
+```
