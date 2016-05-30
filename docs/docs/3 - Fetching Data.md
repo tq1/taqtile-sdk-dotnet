@@ -24,6 +24,16 @@ If you want to access the file with the reports of custom data for all users, yo
 
 Example:
 
-```
+```csharp
 var responseCustom = client.FetchDeviceInfoUrl();
+```
+
+##Fetch Device Info URL
+
+If you want to access the file with the reports of all push notifications, you should call the fetch push open request.
+
+Example:
+
+```csharp
+var responseOpen = client.FetchPushOpenUrl();
 ```
